@@ -3,15 +3,17 @@ import dotenv from 'dotenv';
 import cron from 'node-cron';
 import { crawlData } from './crawler';
 import { getMacbooks } from './firebase';
+import cors from 'cors';
+
+const app = express();
 
 dotenv.config();
+app.use(cors());
 
 cron.schedule('* * * * Sun', () => {
   //Update the database every sunday
   crawlData();
 });
-
-const app = express();
 
 const port = process.env.PORT;
 

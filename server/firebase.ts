@@ -16,7 +16,8 @@ export const saveData = (dataArray: Macbook[]) => {
 
   db.collection('Macbooks').doc(currDate)
   .set({
-    macbooks: JSON.stringify(dataArray)
+    macbooks: JSON.stringify(dataArray),
+    created: admin.firestore.FieldValue.serverTimestamp()
   })
   .then(() => console.log("Saved data succesfully"))
   .catch((err) => console.log(err));

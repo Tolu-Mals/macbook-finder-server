@@ -26,7 +26,7 @@ type rating = {
   noOfReviews?: number | string;
 }
 
-const crawlData = () => {
+const crawlData = async () => {
   const currentMacbooks: Macbook[] = [];
 
   // We need to keep track of this value so we can store the seller data in the corresponding macbook object

@@ -26,7 +26,7 @@ type rating = {
   noOfReviews?: number | string;
 }
 
-const crawlData = async () => {
+export const crawlData = async () => {
   const currentMacbooks: Macbook[] = [];
 
   // We need to keep track of this value so we can store the seller data in the corresponding macbook object
@@ -124,6 +124,4 @@ const crawlData = async () => {
   console.log("Hi there 🤖, I'm crawling the data for you...");
   crawler.queue("https://www.jumia.com.ng/computers-tablets/apple/?q=macbooks");
 }
-
-export default crawlData;
 

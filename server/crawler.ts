@@ -1,7 +1,8 @@
 import Crawler, { CrawlerRequestResponse} from 'crawler';
 const uuid = require('uuid');
+import { saveData } from './firebase';
 
-interface Macbook {
+export interface Macbook {
   id?: string;
   name?: string;
   image?: string;
@@ -107,7 +108,7 @@ export const crawlData = async () => {
 
                 if(macbookIndex === currentMacbooks.length){
                   //Store the data when we've fetched all the related seller's data
-                  console.log(currentMacbooks);
+                  saveData(currentMacbooks);
                 }
               }
               done();
@@ -124,4 +125,3 @@ export const crawlData = async () => {
   console.log("Hi there 🤖, I'm crawling the data for you...");
   crawler.queue("https://www.jumia.com.ng/computers-tablets/apple/?q=macbooks");
 }
-

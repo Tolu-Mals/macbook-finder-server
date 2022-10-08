@@ -1,6 +1,6 @@
 import Crawler, { CrawlerRequestResponse} from 'crawler';
 const uuid = require('uuid');
-import { saveData } from './firebase';
+import { saveMacbooks } from './firebase';
 
 export interface Macbook {
   id?: string;
@@ -108,7 +108,7 @@ export const crawlData = async () => {
 
                 if(macbookIndex === currentMacbooks.length){
                   //Store the data when we've fetched all the related seller's data
-                  saveData(currentMacbooks);
+                  saveMacbooks(currentMacbooks);
                 }
               }
               done();

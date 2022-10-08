@@ -10,7 +10,7 @@ admin.initializeApp({
 
 const db = admin.firestore();
 
-export const saveData = (dataArray: Macbook[]) => {
+export const saveMacbooks = (dataArray: Macbook[]) => {
   const date = new Date();
   const currDate = `${date.getDate()}-${date.getMonth()}-${date.getFullYear()}`;
 
@@ -22,3 +22,15 @@ export const saveData = (dataArray: Macbook[]) => {
   .then(() => console.log("Saved data succesfully"))
   .catch((err) => console.log(err));
 };
+
+export const getMacbooks = async () => {
+  const macbooksRef = db.collection('Macbooks');
+  let snapshot = await macbooksRef.orderBy('created', 'desc').limit(1).get();
+  let macbooks;
+  
+  snapshot.forEach((doc) => {
+    macbooks = doc.data()?.macbooks;
+  });
+
+  return macbooks;
+}

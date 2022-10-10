@@ -10,12 +10,11 @@ const app = express();
 dotenv.config();
 app.use(cors());
 
-// cron.schedule('* * * * Sun', () => {
-//   //Update the database every sunday
-//   crawlData();
-// });
+cron.schedule('* * * * Sun', () => {
+  //Update the database every sunday
+  crawlData();
+});
 
-crawlData();
 
 const port = process.env.PORT;
 

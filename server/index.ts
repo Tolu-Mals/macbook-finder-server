@@ -10,16 +10,18 @@ const app = express();
 dotenv.config();
 app.use(cors());
 
-cron.schedule('* * * * Sun', () => {
-  //Update the database every sunday
-  crawlData();
-});
+// cron.schedule('* * * * Sun', () => {
+//   //Update the database every sunday
+//   crawlData();
+// });
+
+crawlData();
 
 const port = process.env.PORT;
 
 app.get("/macbooks", async (_req, res) => {
-  const macbooks = await getMacbooks();
-  res.json({ macbooks });
+  const macbookData = await getMacbooks();
+  res.json({ macbookData });
 });
 
 app.listen(port, () => console.log(`⚡️[server]: Server is running at http://localhost:${port}`));

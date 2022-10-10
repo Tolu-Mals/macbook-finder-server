@@ -26,11 +26,11 @@ export const saveMacbooks = (dataArray: Macbook[]) => {
 export const getMacbooks = async () => {
   const macbooksRef = db.collection('Macbooks');
   let snapshot = await macbooksRef.orderBy('created', 'desc').limit(1).get();
-  let macbooks;
+  let macbookData;
   
   snapshot.forEach((doc) => {
-    macbooks = doc.data()?.macbooks;
+    macbookData = doc.data();
   });
-
-  return macbooks;
+  
+  return macbookData;
 }

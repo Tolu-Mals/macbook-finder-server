@@ -1,26 +1,29 @@
+require('dotenv').config({ path: __dirname+'/.env' });
+
 import express from 'express';
-import dotenv from 'dotenv';
-import cron from 'node-cron';
-import { crawlData } from './crawler';
-import { getMacbooks } from './firebase';
+import { connectDB } from './database';
 import cors from 'cors';
+import { crawlData } from './crawler';
+import { Macbooks } from './models/Macbooks';
+
+connectDB();
 
 const app = express();
 
-dotenv.config();
 app.use(cors());
-
-cron.schedule('* * * * Sun', () => {
-  //Update the database every sunday
-  crawlData();
-});
-
 
 const port = process.env.PORT || 5000;
 
+app.get("/crawl", (_req, _res) => {
+  console.log(`Crawling data on ${new Date().toLocaleDateString()}`);
+  crawlData().then(() => console.log("Saved crawled data successfully"));
+})
+
 app.get("/macbooks", async (_req, res) => {
-  const macbookData = await getMacbooks();
-  res.json({ macbookData });
+  Macbooks.findOne().sort('-created').exec(function (error, macbooks) {
+    if(error) throw error;
+    res.status(200).json(macbooks);
+  });
 });
 
 app.listen(port, () => console.log(`⚡️[server]: Server is running at http://localhost:${port}`));

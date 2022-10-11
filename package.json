@@ -30,7 +30,7 @@
   },
   "scripts": {
     "build": "yarn install; npx tsc",
-    "start": "node index.js",
+    "start": "yarn run build; node index.js",
     "dev": "concurrently \"npx tsc --watch\" \"nodemon -q index.js\" "
   }
 }

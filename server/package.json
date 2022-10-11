@@ -27,7 +27,7 @@
     "typescript": "^4.8.4"
   },
   "scripts": {
-    "build": "npx tsc",
+    "build": "yarn install; npx tsc",
     "start": "node index.js",
     "dev": "concurrently \"npx tsc --watch\" \"nodemon -q index.js\" "
   }

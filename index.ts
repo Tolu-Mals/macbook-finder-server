@@ -1,5 +1,4 @@
-require('dotenv').config();
-
+import * as dotenv from 'dotenv';
 import express from 'express';
 import { connectDB } from './database';
 import cors from 'cors';

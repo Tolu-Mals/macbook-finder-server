@@ -5,7 +5,6 @@ import { crawlData } from './crawler';
 import { Macbooks } from './models/Macbooks';
 import cron from 'node-cron';
 
-connectDB();
 
 const app = express();
 
@@ -25,4 +24,6 @@ app.get("/macbooks", async (_req, res) => {
   });
 });
 
-app.listen(port, () => console.log(`⚡️[server]: Server is running at http://localhost:${port}`));
+connectDB().then(() => {
+  app.listen(port, () => console.log(`⚡️[server]: Server is running at http://localhost:${port}`));
+});

@@ -18,10 +18,15 @@ cron.schedule('* * * * Sun', () => {
 });
 
 app.get("/macbooks", async (_req, res) => {
-  Macbooks.findOne().sort('-created').exec(function (error, macbooks) {
-    if(error) throw error;
-    res.status(200).json(macbooks);
-  });
+  try {
+    const macbooks = await Macbooks.findOne().sort('-created')
+    res.status(200).json(macbooks)
+  } catch (error) {
+    if (error) {
+      console.log("Error: ", error)
+    }
+    res.status(500).json({ msg: 'Could not fetch data' })
+  }
 });
 
 connectDB().then(() => {

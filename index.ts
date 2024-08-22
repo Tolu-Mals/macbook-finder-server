@@ -1,9 +1,9 @@
 import express from 'express';
 import { connectDB } from './database';
 import cors from 'cors';
-import { crawlData } from './crawler';
+import { crawlData } from './lib/crawler';
 import { Macbooks } from './models/Macbooks';
-import cron from 'node-cron';
+// import cron from 'node-cron';
 
 
 const app = express();
@@ -12,10 +12,16 @@ app.use(cors());
 
 const port = process.env.PORT || 5000;
 
-cron.schedule('* * * * Sun', () => {
+// cron.schedule('* * * * Sun', () => {
+//   console.log(`Crawling data on ${new Date().toLocaleDateString()}`);
+//   crawlData().then(() => console.log("Saved crawled data successfully"));
+// });
+
+app.get('/crawl', async (_, res) => {
   console.log(`Crawling data on ${new Date().toLocaleDateString()}`);
   crawlData().then(() => console.log("Saved crawled data successfully"));
-});
+  res.status(200).json({ msg: 'done!' })
+})
 
 app.get("/macbooks", async (_req, res) => {
   try {

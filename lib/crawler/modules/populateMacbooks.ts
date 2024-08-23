@@ -9,13 +9,13 @@ import {
   PRODUCT_LINK_SELECTOR,
 } from './selectors'
 import { JUMIA_BASE_URL } from '../constants'
-const uuid = require('uuid');
+import { v4 as uuidv4 } from 'uuid';
 
 const populateMacbooks = ($: cheerio.CheerioAPI, productList: cheerio.Cheerio, macbooks: Macbook[]) => {
   productList.each(function (_, product) {
-    const id = uuid.v4();
+    const id = uuidv4();
     const name = $(product).find(NAME_SELECTOR).text();
-    const image = $(product).find(IMAGE_SELECTOR).attr(DATA_SRC_ATTRIBUTE_SELECTOR) ?? '';
+    const image = $(product).find(IMAGE_SELECTOR).attr(DATA_SRC_ATTRIBUTE_SELECTOR);
     const price = $(product).find(PRICE_SELECTOR).text();
     const reviews = $(product).find(REVIEW_SELECTOR).text();
     const { starRating, noOfReviews } = getRatingFromReviewString(reviews);

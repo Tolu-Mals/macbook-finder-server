@@ -1,7 +1,7 @@
 import Crawler, { CrawlerRequestResponse } from "crawler";
 import { CrawlerState } from "..";
-import { Macbook } from "../../../types";
-import { Macbooks } from "../../../models/Macbooks";
+import { IMacbook } from "../../../types";
+import { Macbook } from '../../../models/Macbook'
 import { CRAWLER_MAX_CONNECTIONS, CRAWLER_RATE_LIMIT } from "./config";
 import {
   SELLER_INFO_GROUP_SELECTOR,
@@ -13,7 +13,7 @@ import {
   CUSTOMER_RATING_SELECTOR
 } from './selectors'
 
-const crawlDetailsPage = (crawlerState: CrawlerState, currentMacbooks: Macbook[], macbookDetailCrawlConfigs: { uri: string }[]) => {
+const crawlDetailsPage = (crawlerState: CrawlerState, currentMacbooks: IMacbook[], macbookDetailCrawlConfigs: { uri: string }[]) => {
   const detailsCrawler = new Crawler({
     maxConnections: CRAWLER_MAX_CONNECTIONS,
     rateLimit: CRAWLER_RATE_LIMIT,
@@ -38,8 +38,7 @@ const crawlDetailsPage = (crawlerState: CrawlerState, currentMacbooks: Macbook[]
 
         if (crawlerState.macbookIndex === currentMacbooks.length) {
           //Store the data when we've fetched all the related seller's data
-          const macbooks = { macbooks: JSON.stringify(currentMacbooks) }
-          Macbooks.create(macbooks).then(() => console.log("Data saved successfully"))
+          Macbook.insertMany(currentMacbooks)
         }
       }
       done();

@@ -1,4 +1,4 @@
-export interface Macbook {
+export interface IMacbook {
   id?: string;
   name?: string;
   image?: string;
@@ -6,10 +6,10 @@ export interface Macbook {
   starRating?: number | string;
   noOfReviews?: number | string;
   url?: string;
-  seller?: Seller;
+  seller?: ISeller;
 }
 
-export interface Seller {
+export interface ISeller {
   name?: string;
   followers?: number;
   sellerScore?: string;
@@ -18,7 +18,7 @@ export interface Seller {
   orderFulfillmentRate?: string;
 }
 
-export type Rating = {
+export type IRating = {
   starRating?: number | string;
   noOfReviews?: number | string;
 }

@@ -1,6 +1,6 @@
 import { Rating } from "../../../types";
 
-const getRating = (ratingString: string): Rating => {
+const getRatingFromReviewString = (ratingString: string): Rating => {
   if (!ratingString) return { starRating: 'nil', noOfReviews: 'nil' }
   const regex = /(\d[.]?\d?) out of 5(\(\d+\))?/;
   const ratingData = ratingString.match(regex);
@@ -10,4 +10,4 @@ const getRating = (ratingString: string): Rating => {
   return { starRating, noOfReviews };
 }
 
-export default getRating
+export default getRatingFromReviewString

@@ -1,0 +1,2 @@
+export const CRAWLER_RATE_LIMIT = 2000
+export const CRAWLER_MAX_CONNECTIONS = 1

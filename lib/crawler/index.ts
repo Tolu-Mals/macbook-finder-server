@@ -1,8 +1,6 @@
 import Crawler from 'crawler';
 import crawlerCallbackFn from './modules/crawlerCallbackFn';
-
-const CRAWLER_RATE_LIMIT = 2000
-const CRAWLER_MAX_CONNECTIONS = 1
+import { CRAWLER_RATE_LIMIT, CRAWLER_MAX_CONNECTIONS } from './modules/config';
 
 export interface CrawlerState {
   instance?: Crawler

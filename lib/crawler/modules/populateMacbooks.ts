@@ -1,5 +1,5 @@
 import { Macbook } from '../../../types';
-import getRatingFromString from './getRatingFromString';
+import getRatingFromReviewString from './getRatingFromReviewString';
 import {
   NAME_SELECTOR,
   IMAGE_SELECTOR,
@@ -18,7 +18,7 @@ const populateMacbooks = ($: cheerio.CheerioAPI, productList: cheerio.Cheerio, m
     const image = $(product).find(IMAGE_SELECTOR).attr(DATA_SRC_ATTRIBUTE_SELECTOR) ?? '';
     const price = $(product).find(PRICE_SELECTOR).text();
     const reviews = $(product).find(REVIEW_SELECTOR).text();
-    const { starRating, noOfReviews } = getRatingFromString(reviews);
+    const { starRating, noOfReviews } = getRatingFromReviewString(reviews);
 
     let url = $(product).find(PRODUCT_LINK_SELECTOR).attr('href') ?? '';
     url = JUMIA_BASE_URL + url;

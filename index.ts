@@ -3,8 +3,6 @@ import { connectDB } from './database';
 import cors from 'cors';
 import { crawlData } from './lib/crawler';
 import { Macbooks } from './models/Macbooks';
-// import cron from 'node-cron';
-
 
 const app = express();
 

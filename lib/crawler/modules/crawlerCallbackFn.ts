@@ -1,4 +1,4 @@
-import { CrawlerRequestOptions } from 'crawler'
+import Crawler, { CrawlerRequestResponse, CrawlerRequestOptions } from 'crawler'
 import { Macbook } from '../../../types';
 import { crawlerState } from '..';
 import {
@@ -9,13 +9,12 @@ import populateMacbooks from './populateMacbooks'
 import crawlNextPage from './crawlNextPage'
 import crawlDetailsPage from './getDetailsCrawler';
 
-type CrawlConfig = { uri: string }
+const currentMacbooks: Macbook[] = []
 const crawlerCallbackFn: CrawlerRequestOptions['callback'] = (error, res, done) => {
   if (error) {
     throw new Error('Something went wrong in the crawler callback')
   }
 
-  const currentMacbooks: Macbook[] = []
   const $ = res.$;
   const productList = $(PRODUCT_LIST_SELECTOR);
 
@@ -31,13 +30,12 @@ const crawlerCallbackFn: CrawlerRequestOptions['callback'] = (error, res, done) 
 
     //Generate configs from all the macbooks we stored during the first stage of the web crawling
     //This time around we're all getting all the corresponding seller data
-    const macbookDetailCrawlConfigs = currentMacbooks.map((_, index) => {
-      const url = currentMacbooks.at(index)?.url
-      if (url) return {
+    type CrawlConfig = { uri: string }
+    const macbookDetailCrawlConfigs = currentMacbooks.map(({ url }) => {
+      return {
         uri: url
       }
-      return null
-    }).filter((url) => url != null) as CrawlConfig[];
+    }) as CrawlConfig[];
 
     if (macbookDetailCrawlConfigs) {
       crawlDetailsPage(crawlerState, currentMacbooks, macbookDetailCrawlConfigs)

@@ -1,6 +1,6 @@
 export const PRODUCT_LIST_SELECTOR = ".-paxs.row._no-g._4cl-3cm-shs > article"
 export const NAME_SELECTOR = '.name'
-export const IMAGE_SELECTOR = '.name'
+export const IMAGE_SELECTOR = 'img'
 export const PRICE_SELECTOR = '.prc'
 export const DATA_SRC_ATTRIBUTE_SELECTOR = 'data-src'
 export const REVIEW_SELECTOR = '.rev'

@@ -4,7 +4,6 @@ import { Macbook } from "../../../types";
 import { Macbooks } from "../../../models/Macbooks";
 import { CRAWLER_MAX_CONNECTIONS, CRAWLER_RATE_LIMIT } from "./config";
 import {
-
   SELLER_INFO_GROUP_SELECTOR,
   SELLER_NAME_SELECTOR,
   SELLER_SCORE_SELECTOR,

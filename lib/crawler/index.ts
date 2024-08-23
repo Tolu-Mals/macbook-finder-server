@@ -1,6 +1,7 @@
 import Crawler from 'crawler';
 import crawlerCallbackFn from './modules/crawlerCallbackFn';
 import { CRAWLER_RATE_LIMIT, CRAWLER_MAX_CONNECTIONS } from './modules/config';
+import { JUMIA_MACBOOK_LISTING_URL } from './constants';
 
 export interface CrawlerState {
   instance?: Crawler
@@ -10,6 +11,7 @@ export interface CrawlerState {
 export const crawlerState: CrawlerState = { macbookIndex: 0 }
 
 export const crawlData = async () => {
+  //Crawl the search results page for "Macbooks" on Jumia
   crawlerState.instance = new Crawler({
     maxConnections: CRAWLER_MAX_CONNECTIONS,
     rateLimit: CRAWLER_RATE_LIMIT,
@@ -17,6 +19,6 @@ export const crawlData = async () => {
   });
 
   console.log("Hi there 🤖, I'm crawling the data for you...");
-  crawlerState.instance.queue("https://www.jumia.com.ng/computers-tablets/apple/?q=macbooks");
+  crawlerState.instance.queue(JUMIA_MACBOOK_LISTING_URL);
 }
 

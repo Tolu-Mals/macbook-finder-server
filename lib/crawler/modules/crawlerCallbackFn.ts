@@ -1,18 +1,20 @@
-import Crawler, { CrawlerRequestResponse, CrawlerRequestOptions } from 'crawler'
+import { CrawlerRequestOptions } from 'crawler'
 import { Macbook } from '../../../types';
 import { crawlerState } from '..';
 import {
   PRODUCT_LIST_SELECTOR,
   NEXT_PAGE_LINK_SELECTOR,
+  HREF_ATTR_SELECTOR
 } from './selectors';
 import populateMacbooks from './populateMacbooks'
 import crawlNextPage from './crawlNextPage'
 import crawlDetailsPage from './getDetailsCrawler';
 
 const currentMacbooks: Macbook[] = []
+
 const crawlerCallbackFn: CrawlerRequestOptions['callback'] = (error, res, done) => {
   if (error) {
-    throw new Error('Something went wrong in the crawler callback')
+    throw new Error('Something went wrong in the main crawler callback')
   }
 
   const $ = res.$;
@@ -20,8 +22,9 @@ const crawlerCallbackFn: CrawlerRequestOptions['callback'] = (error, res, done) 
 
   populateMacbooks($, productList, currentMacbooks)
 
-  let nextPagePath = $(NEXT_PAGE_LINK_SELECTOR).attr('href');
+  const nextPagePath = $(NEXT_PAGE_LINK_SELECTOR).attr(HREF_ATTR_SELECTOR);
 
+  //Crawl next page of search results if available
   if (nextPagePath) {
     crawlNextPage(crawlerState, nextPagePath)
   }

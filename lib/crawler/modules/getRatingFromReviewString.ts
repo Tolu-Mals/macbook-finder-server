@@ -1,12 +1,10 @@
-import { Rating } from "../../../types";
-
-const getRatingFromReviewString = (ratingString: string): Rating => {
-  if (!ratingString) return { starRating: 'nil', noOfReviews: 'nil' }
+const getRatingFromReviewString = (ratingString: string) => {
+  if (!ratingString) return {}
   const regex = /(\d[.]?\d?) out of 5(\(\d+\))?/;
   const ratingData = ratingString.match(regex);
-  const starRating = ratingData?.at(1);
-  let noOfReviews: string | number | undefined = ratingData?.at(2);
-  noOfReviews = Number(noOfReviews?.slice(1, noOfReviews.length - 1));
+  const starRating = Number.parseInt(ratingData?.at(1) as string);
+  const noOfReviewsString = ratingData?.at(2);
+  const noOfReviews = Number.parseInt(noOfReviewsString?.slice(1, noOfReviewsString.length - 1) as string);
   return { starRating, noOfReviews };
 }
 

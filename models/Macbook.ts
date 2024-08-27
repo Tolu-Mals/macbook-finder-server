@@ -28,7 +28,8 @@ const MacbookSchema = new Schema({
   starRating: Number,
   noOfReviews: Number,
   url: String,
-  seller: SellerSchema
+  seller: SellerSchema,
 }, { timestamps: true });
+
 
 export const Macbook = mongoose.model('macbook', MacbookSchema);

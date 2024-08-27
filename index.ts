@@ -2,7 +2,7 @@ import express from 'express';
 import { connectDB } from './database';
 import cors from 'cors';
 import { crawlData } from './lib/crawler';
-import { Macbooks } from './models/Macbooks';
+import { Macbook } from './models/Macbook';
 
 const app = express();
 
@@ -16,19 +16,17 @@ const port = process.env.PORT || 5000;
 // });
 
 app.get('/crawl', async (_, res) => {
-  console.log(`Crawling data on ${new Date().toLocaleDateString()}`);
-  crawlData().then(() => console.log("Saved crawled data successfully"));
-  res.status(200).json({ msg: 'done!' })
+  console.log(`[Crawler]: Crawling data on ${new Date().toLocaleDateString()}`);
+  crawlData()
+  res.status(200).json({ msg: '[Crawler]: Started Crawling Pages...' })
 })
 
 app.get("/macbooks", async (_req, res) => {
   try {
-    const macbooks = await Macbooks.findOne().sort('-created')
+    const macbooks = await Macbook.find()
     res.status(200).json(macbooks)
   } catch (error) {
-    if (error) {
-      console.log("Error: ", error)
-    }
+    console.log("Error: ", error)
     res.status(500).json({ msg: 'Could not fetch data' })
   }
 });

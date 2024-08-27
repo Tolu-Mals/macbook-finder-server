@@ -2,23 +2,23 @@ export interface IMacbook {
   id?: string;
   name?: string;
   image?: string;
-  price?: string;
-  starRating?: number | string;
-  noOfReviews?: number | string;
-  url?: string;
+  price?: number;
+  starRating?: number;
+  noOfReviews?: number;
+  url: string;
   seller?: ISeller;
 }
 
 export interface ISeller {
   name?: string;
   followers?: number;
-  sellerScore?: string;
+  sellerScore?: number;
   qualityScore?: string;
   customerRating?: string;
   orderFulfillmentRate?: string;
 }
 
 export type IRating = {
-  starRating?: number | string;
-  noOfReviews?: number | string;
+  starRating?: number
+  noOfReviews?: number
 }

@@ -10,7 +10,7 @@ export interface CrawlerState {
 
 export const crawlerState: CrawlerState = { macbookIndex: 0 }
 
-export const crawlData = async () => {
+export const crawlData = () => {
   //Crawl the search results page for "Macbooks" on Jumia
   crawlerState.instance = new Crawler({
     maxConnections: CRAWLER_MAX_CONNECTIONS,
@@ -18,7 +18,6 @@ export const crawlData = async () => {
     callback: crawlerCallbackFn
   });
 
-  console.log("Hi there 🤖, I'm crawling the data for you...");
   crawlerState.instance.queue(JUMIA_MACBOOK_LISTING_URL);
 }
 

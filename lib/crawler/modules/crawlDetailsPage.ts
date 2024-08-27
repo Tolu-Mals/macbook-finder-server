@@ -1,7 +1,7 @@
 import Crawler, { CrawlerRequestResponse } from "crawler";
-import { CrawlerState } from "..";
 import { IMacbook } from "../../../types";
-import { Macbook } from '../../../models/Macbook'
+import { CrawlerState } from "..";
+import { Macbook } from "../../../models/Macbook";
 import { CRAWLER_MAX_CONNECTIONS, CRAWLER_RATE_LIMIT } from "./config";
 import {
   SELLER_INFO_GROUP_SELECTOR,
@@ -18,14 +18,15 @@ const crawlDetailsPage = (crawlerState: CrawlerState, currentMacbooks: IMacbook[
     maxConnections: CRAWLER_MAX_CONNECTIONS,
     rateLimit: CRAWLER_RATE_LIMIT,
     callback: (error: Error, res: CrawlerRequestResponse, done: () => void) => {
+      console.log("[Crawler | Details]: Macbook Index: ", crawlerState.macbookIndex)
       if (error) {
-        throw new Error('Something went wrong in the details crawler')
+        throw new Error('[Crawler | Details]: Something went wrong')
       }
       else {
         const $ = res.$;
         let sellerInfoGroup = $(SELLER_INFO_GROUP_SELECTOR);
         const name = $(sellerInfoGroup).find(SELLER_NAME_SELECTOR).text();
-        const sellerScore = $(sellerInfoGroup).find(SELLER_SCORE_SELECTOR).text();
+        const sellerScore = Number.parseInt($(sellerInfoGroup).find(SELLER_SCORE_SELECTOR).text().replace("%", ""));
         const followers = $(sellerInfoGroup).find(SELLER_FOLLOWERS_SELECTOR).text().trim();
         const orderFulfillmentRate = $(sellerInfoGroup).find(ORDER_FULFILLMENT_RATE_SELECTOR).text();
         const qualityScore = $(sellerInfoGroup).find(QUALITY_SCORE_SELECTOR).text();
@@ -37,11 +38,13 @@ const crawlDetailsPage = (crawlerState: CrawlerState, currentMacbooks: IMacbook[
         crawlerState.macbookIndex++;
 
         if (crawlerState.macbookIndex === currentMacbooks.length) {
-          //Store the data when we've fetched all the related seller's data
-          Macbook.insertMany(currentMacbooks)
+          console.log("[Crawler]: Saving to database 📁 ....")
+          Macbook.insertMany(currentMacbooks).then(() => {
+            console.log("[Crawler]: Saved successfully to database ✅ ....")
+          })
         }
       }
-      done();
+      done()
     }
   });
 

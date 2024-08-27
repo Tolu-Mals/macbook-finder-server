@@ -1,0 +1,1196 @@
+[
+  {
+    "name": "Apple MacBook Air 13.3\" 8GB RAM/256GB M1 Processor - Space Grey",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/23/658757/1.jpg?9869",
+    "price": 1250999,
+    "url": "https://jumia.com.ng/macbook-air-13.3-8gb256gbm1-processor-space-grey-apple-mpg3400446.html",
+    "starRating": 4,
+    "noOfReviews": 32,
+    "seller": {
+      "name": "Apple Authorized Reseller",
+      "sellerScore": 100,
+      "followers": 2343,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "Excellent",
+      "customerRating": "Excellent"
+    }
+  },
+  {
+    "name": "Apple MacBook Pro 16\" Laptop - M3 Max Chip - 36GB Memory - 30-core GPU - 1TB SSD- Space Black",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/40/4635903/1.jpg?2222",
+    "price": 4950000,
+    "url": "https://jumia.com.ng/apple-macbook-pro-16-laptop-m3-max-chip-36gb-memory-30-core-gpu-1tb-ssd-space-black-309536404.html",
+    "starRating": 3,
+    "noOfReviews": 1,
+    "seller": {
+      "name": "Jaunty",
+      "sellerScore": 100,
+      "followers": 399,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "Excellent",
+      "customerRating": "Excellent"
+    }
+  },
+  {
+    "name": "Apple MacBook Pro 14.2\" M3 Chip With 8‑core CPU, 10‑core 8GB - 1TB - Silver - 2023",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/55/4339543/1.jpg?7010",
+    "price": 2999999,
+    "url": "https://jumia.com.ng/apple-macbook-pro-14.2-m3-chip-with-8core-cpu-10core-8gb-1tb-silver-2023-345933455.html",
+    "seller": {
+      "name": "Apple Authorized Reseller",
+      "sellerScore": 100,
+      "followers": 2343,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "Excellent",
+      "customerRating": "Excellent"
+    }
+  },
+  {
+    "name": "Apple MacBook Pro 14\" Laptop - M3 Pro Chip - 18GB  - 14-core GPU - 512 SSD - Space Black/2023",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/91/2178772/1.jpg?1191",
+    "price": 3150000,
+    "url": "https://jumia.com.ng/macbook-pro-14-laptop-m3-pro-chip-18gb-14-core-gpu-512-ssd-space-black2023-apple-mpg4091125.html",
+    "starRating": 5,
+    "noOfReviews": 3,
+    "seller": {
+      "name": "Jaunty",
+      "sellerScore": 100,
+      "followers": 399,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "Excellent",
+      "customerRating": "Excellent"
+    }
+  },
+  {
+    "name": "Apple MacBook Pro 16\" Laptop - M3 Max Chip - 36GB Memory - 30-core GPU - 1TB SSD- SILVER",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/20/5240423/1.jpg?4902",
+    "price": 4750000,
+    "url": "https://jumia.com.ng/apple-macbook-pro-16-laptop-m3-max-chip-36gb-memory-30-core-gpu-1tb-ssd-silver-324042502.html",
+    "seller": {
+      "name": "Jaunty",
+      "sellerScore": 100,
+      "followers": 399,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "Excellent",
+      "customerRating": "Excellent"
+    }
+  },
+  {
+    "name": "Apple MacBook Air 15\" Laptop - M2 Chip - 8GB Memory - 256GB SSD (Latest Model) - MIDNIGHT 2023",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/58/3777482/1.jpg?8381",
+    "price": 1950000,
+    "url": "https://jumia.com.ng/apple-macbook-air-15-laptop-m2-chip-8gb-memory-256gb-ssd-latest-model-midnight-2023-284777385.html",
+    "starRating": 5,
+    "noOfReviews": 2,
+    "seller": {
+      "name": "Jaunty",
+      "sellerScore": 100,
+      "followers": 399,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "Excellent",
+      "customerRating": "Excellent"
+    }
+  },
+  {
+    "name": "Apple MacBook Pro 16\" Laptop - M3 Pro Chip - 18GB  18-core GPU - 512GB SSD - Space Black",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/14/6228782/1.jpg?9548",
+    "price": 3650000,
+    "url": "https://jumia.com.ng/apple-macbook-pro-16-laptop-m3-pro-chip-18gb-18-core-gpu-512gb-ssd-space-black-287822641.html",
+    "starRating": 4,
+    "noOfReviews": 1,
+    "seller": {
+      "name": "Jaunty",
+      "sellerScore": 100,
+      "followers": 399,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "Excellent",
+      "customerRating": "Excellent"
+    }
+  },
+  {
+    "name": "Apple MacBook Pro 14\" Laptop - M3 Pro Chip - 18GB  - 18-core GPU - 1TB SSD - SILVER 2023",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/57/6088933/1.jpg?0871",
+    "price": 3950000,
+    "url": "https://jumia.com.ng/apple-macbook-pro-14-laptop-m3-pro-chip-18gb-18-core-gpu-1tb-ssd-silver-2023-339880675.html",
+    "seller": {
+      "name": "Jaunty",
+      "sellerScore": 100,
+      "followers": 399,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "Excellent",
+      "customerRating": "Excellent"
+    }
+  },
+  {
+    "name": "Apple 13.3\" MacBook Pro M1 Chip 8GB/ 256GB (Late 2020)",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/69/082417/1.jpg?8623",
+    "price": 1950000,
+    "url": "https://jumia.com.ng/macbook-air-13-m1-chip-8gb-256gb-2020-model-gray-apple-mpg2158971.html",
+    "starRating": 5,
+    "noOfReviews": 11,
+    "seller": {
+      "name": "Jaunty",
+      "sellerScore": 100,
+      "followers": 399,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "Excellent",
+      "customerRating": "Excellent"
+    }
+  },
+  {
+    "name": "Apple MacBook Pro 13.3\" - 256GB - 8cores - Space Grey - M2 - 2022",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/67/0999471/1.jpg?1737",
+    "price": 2250000,
+    "url": "https://jumia.com.ng/macbook-pro-13.3-256gb-8cores-space-grey-m2-2022-apple-mpg2158969.html",
+    "starRating": 5,
+    "noOfReviews": 3,
+    "seller": {
+      "name": "Jaunty",
+      "sellerScore": 100,
+      "followers": 399,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "Excellent",
+      "customerRating": "Excellent"
+    }
+  },
+  {
+    "name": "Apple MacBook Air 15\" Laptop - M2 Chip - 8GB Memory - 256GB SSD (Latest Model) - STARLIGHT 2023",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/00/5042323/1.jpg?1796",
+    "price": 1950000,
+    "url": "https://jumia.com.ng/apple-macbook-air-15-laptop-m2-chip-8gb-memory-256gb-ssd-latest-model-starlight-2023-323240500.html",
+    "starRating": 5,
+    "noOfReviews": 1,
+    "seller": {
+      "name": "Jaunty",
+      "sellerScore": 100,
+      "followers": 399,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "Excellent",
+      "customerRating": "Excellent"
+    }
+  },
+  {
+    "name": "Apple MacBook Air 13-inch 2022 M2 / 8GB / 256GB SSD / 8-Core GPU / Space Gray",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/80/4705552/1.jpg?0018",
+    "price": 1800000,
+    "url": "https://jumia.com.ng/apple-macbook-air-13-inch-2022-m2-8gb-256gb-ssd-8-core-gpu-space-gray-255507408.html",
+    "seller": {
+      "name": "Jaunty",
+      "sellerScore": 100,
+      "followers": 399,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "Excellent",
+      "customerRating": "Excellent"
+    }
+  },
+  {
+    "name": "Apple MacBook Air 13.3\" Laptop - Apple M1 Chip - 8GB Memory - 256GB SSD  - Silver",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/90/7992842/1.jpg?3547",
+    "price": 1350000,
+    "url": "https://jumia.com.ng/apple-macbook-air-13.3-laptop-apple-m1-chip-8gb-memory-256gb-ssd-silver-248299709.html",
+    "seller": {
+      "name": "Jaunty",
+      "sellerScore": 100,
+      "followers": 399,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "Excellent",
+      "customerRating": "Excellent"
+    }
+  },
+  {
+    "name": "Apple MacBook Air 13.6\" 8GB RAM/512GB SSD M2 Chip - Midnight",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/21/2354302/1.jpg?9877",
+    "price": 2040999,
+    "url": "https://jumia.com.ng/apple-macbook-air-13.6-8gb-ram512gb-ssd-m2-chip-midnight-203453212.html",
+    "seller": {
+      "name": "Apple Authorized Reseller",
+      "sellerScore": 100,
+      "followers": 2343,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "Excellent",
+      "customerRating": "Excellent"
+    }
+  },
+  {
+    "name": "Apple MacBook Air - 13.6\" - 8GB - 256GB - M2 - Midnight  - 2022",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/42/5062163/1.jpg?0302",
+    "price": 1570000,
+    "url": "https://jumia.com.ng/apple-macbook-air-13.6-8gb-256gb-m2-midnight-2022-361260524.html",
+    "seller": {
+      "name": "vee vee",
+      "sellerScore": 86,
+      "followers": 2438,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "Good",
+      "customerRating": "Good"
+    }
+  },
+  {
+    "name": "Apple MacBook Pro 16.2\" M3 Max - 16Core/ 40Core - 48GB RAM - 1TB - BLACK",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/87/9579843/1.jpg?6121",
+    "price": 6500999,
+    "url": "https://jumia.com.ng/apple-macbook-pro-16.2-m3-max-16core-40core-48gb-ram-1tb-black-348975978.html",
+    "seller": {
+      "name": "Apple Authorized Reseller",
+      "sellerScore": 100,
+      "followers": 2343,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "Excellent",
+      "customerRating": "Excellent"
+    }
+  },
+  {
+    "name": "Apple MacBook Air 13.3\" 8GB RAM/256GB M1 Processor - Space Grey",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/16/7702663/1.jpg?9169",
+    "price": 1000000,
+    "url": "https://jumia.com.ng/apple-macbook-air-13.3-8gb-ram256gb-m1-processor-space-grey-366207761.html",
+    "seller": {
+      "name": "Arinjam Apples and Accessories",
+      "sellerScore": 98,
+      "followers": 3,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "Excellent",
+      "customerRating": "Excellent"
+    }
+  },
+  {
+    "name": "Apple 13.6\" MacBook Air (M2, Midnight) 8GB /512GB",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/45/2679312/1.jpg?7041",
+    "price": 2150000,
+    "url": "https://jumia.com.ng/apple-13.6-macbook-air-m2-midnight-8gb-512gb-213976254.html",
+    "seller": {
+      "name": "Jaunty",
+      "sellerScore": 100,
+      "followers": 399,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "Excellent",
+      "customerRating": "Excellent"
+    }
+  },
+  {
+    "name": "Apple MacBook Pro 14.2\" M3 Chip With 8‑core CPU, 10‑core 8GB - 1TB - Space Grey - 2023",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/97/5546592/1.jpg?4150",
+    "price": 2999999,
+    "url": "https://jumia.com.ng/apple-macbook-pro-14.2-m3-chip-with-8core-cpu-10core-8gb-1tb-space-grey-2023-295645579.html",
+    "seller": {
+      "name": "Apple Authorized Reseller",
+      "sellerScore": 100,
+      "followers": 2343,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "Excellent",
+      "customerRating": "Excellent"
+    }
+  },
+  {
+    "name": "Apple MacBook Air 15\" Laptop - M2 Chip - 8GB Memory - 512GB SSD (Latest Model) - MIDNIGHT 2023",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/54/8789362/1.jpg?7073",
+    "price": 2450000,
+    "url": "https://jumia.com.ng/apple-macbook-air-15-laptop-m2-chip-8gb-memory-512gb-ssd-latest-model-midnight-2023-263987845.html",
+    "starRating": 5,
+    "noOfReviews": 2,
+    "seller": {
+      "name": "Jaunty",
+      "sellerScore": 100,
+      "followers": 399,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "Excellent",
+      "customerRating": "Excellent"
+    }
+  },
+  {
+    "name": "Apple MacBook Pro 16\" Laptop - M3 Pro Chip - 18GB  18-core GPU - 512GB SSD - Space Black",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/33/0617782/1.jpg?2869",
+    "price": 3550000,
+    "url": "https://jumia.com.ng/apple-macbook-pro-16-laptop-m3-pro-chip-18gb-18-core-gpu-512gb-ssd-space-black-287716033.html",
+    "seller": {
+      "name": "Jaunty",
+      "sellerScore": 100,
+      "followers": 399,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "Excellent",
+      "customerRating": "Excellent"
+    }
+  },
+  {
+    "name": "Apple MacBook Pro 16\" Laptop - M3 Pro Chip - 18GB  18-core GPU - 512GB SSD - SILVER",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/19/3199423/1.jpg?1070",
+    "price": 3450000,
+    "url": "https://jumia.com.ng/apple-macbook-pro-16-laptop-m3-pro-chip-18gb-18-core-gpu-512gb-ssd-silver-324991391.html",
+    "seller": {
+      "name": "Jaunty",
+      "sellerScore": 100,
+      "followers": 399,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "Excellent",
+      "customerRating": "Excellent"
+    }
+  },
+  {
+    "name": "Apple MacBook Air 15\" Laptop - M2 Chip - 8GB Memory - 512GB SSD (Latest Model) - STARLIGHT 2023",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/42/5086582/1.jpg?8572",
+    "price": 2350000,
+    "url": "https://jumia.com.ng/apple-macbook-air-15-laptop-m2-chip-8gb-memory-512gb-ssd-latest-model-starlight-2023-285680524.html",
+    "seller": {
+      "name": "Jaunty",
+      "sellerScore": 100,
+      "followers": 399,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "Excellent",
+      "customerRating": "Excellent"
+    }
+  },
+  {
+    "name": "Apple MacBook Air 13\" M1 Chip 8GB 256GB 2020 Model - Gray",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/22/864817/1.jpg?1933",
+    "price": 1499000,
+    "url": "https://jumia.com.ng/apple-macbook-air-13-m1-chip-8gb-256gb-2020-model-gray-71846822.html",
+    "seller": {
+      "name": "Just Fones",
+      "sellerScore": 100,
+      "followers": 1799,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "Excellent",
+      "customerRating": "Excellent"
+    }
+  },
+  {
+    "name": "Apple MacBook Air 15-inch Laptop - Apple M3 Chip - 8GB Memory - 512GB SSD- Midnight",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/14/6143153/1.jpg?8015",
+    "price": 2750000,
+    "url": "https://jumia.com.ng/apple-macbook-air-15-inch-laptop-apple-m3-chip-8gb-memory-512gb-ssd-midnight-351341641.html",
+    "seller": {
+      "name": "Jaunty",
+      "sellerScore": 100,
+      "followers": 399,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "Excellent",
+      "customerRating": "Excellent"
+    }
+  },
+  {
+    "name": "Apple MacBook Pro 13.3\" - 512GB - 8cores - Space Grey - M2 - 2022",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/50/4846402/1.jpg?0985",
+    "price": 2200000,
+    "url": "https://jumia.com.ng/apple-macbook-pro-13.3-512gb-8cores-space-grey-m2-2022-204648405.html",
+    "seller": {
+      "name": "vee vee",
+      "sellerScore": 86,
+      "followers": 2438,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "Good",
+      "customerRating": "Good"
+    }
+  },
+  {
+    "name": "Apple MacBook Pro, M3 Pro, 18GB RAM, 14-Core 512 GB, 2023 - Silver",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/43/3654192/1.jpg?1059",
+    "price": 3350999,
+    "url": "https://jumia.com.ng/apple-macbook-pro-m3-pro-18gb-ram-14-core-512-gb-2023-silver-291456334.html",
+    "seller": {
+      "name": "Apple Authorized Reseller",
+      "sellerScore": 100,
+      "followers": 2343,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "Excellent",
+      "customerRating": "Excellent"
+    }
+  },
+  {
+    "name": "Apple MacBook Pro 16\" Laptop - M3 Pro Chip - 36GB  18-core GPU - 512GB SSD SPACE BLACK",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/22/2548023/1.jpg?7917",
+    "price": 3750000,
+    "url": "https://jumia.com.ng/apple-macbook-pro-16-laptop-m3-pro-chip-36gb-18-core-gpu-512gb-ssd-space-black-320845222.html",
+    "seller": {
+      "name": "Jaunty",
+      "sellerScore": 100,
+      "followers": 399,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "Excellent",
+      "customerRating": "Excellent"
+    }
+  },
+  {
+    "name": "Apple MacBook Pro 16\" Laptop - M3 Pro Chip - 36GB  18-core GPU - 512GB SSD - SILVER",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/32/3473913/1.jpg?8235",
+    "price": 3750000,
+    "url": "https://jumia.com.ng/apple-macbook-pro-16-laptop-m3-pro-chip-36gb-18-core-gpu-512gb-ssd-silver-319374323.html",
+    "seller": {
+      "name": "Jaunty",
+      "sellerScore": 100,
+      "followers": 399,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "Excellent",
+      "customerRating": "Excellent"
+    }
+  },
+  {
+    "name": "Apple MacBook Air 13.6\" M3 Chip - 8GB - 256GB SSD -Touch ID - Space Grey - 2024",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/46/8955692/1.jpg?3658",
+    "price": 1830999,
+    "url": "https://jumia.com.ng/apple-macbook-air-13.6-m3-chip-8gb-256gb-ssd-touch-id-space-grey-2024-296559864.html",
+    "seller": {
+      "name": "Apple Authorized Reseller",
+      "sellerScore": 100,
+      "followers": 2343,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "Excellent",
+      "customerRating": "Excellent"
+    }
+  },
+  {
+    "name": "Apple 13.6\" MacBook Air (M2, Midnight) 8GB /256gb",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/34/8616942/1.jpg?5042",
+    "price": 1850000,
+    "url": "https://jumia.com.ng/apple-13.6-macbook-air-m2-midnight-8gb-256gb-249616843.html",
+    "seller": {
+      "name": "Jaunty",
+      "sellerScore": 100,
+      "followers": 399,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "Excellent",
+      "customerRating": "Excellent"
+    }
+  },
+  {
+    "name": "Apple MacBook Pro m3 pro 14” 18gb 512gb",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/53/6087553/1.jpg?0004",
+    "price": 3800000,
+    "url": "https://jumia.com.ng/apple-macbook-pro-m3-pro-14-18gb-512gb-355780635.html",
+    "seller": {
+      "name": "Mobilux limited",
+      "sellerScore": 60,
+      "followers": 0,
+      "orderFulfillmentRate": "",
+      "qualityScore": "",
+      "customerRating": ""
+    }
+  },
+  {
+    "name": "Apple MacBook Air 15.3\" M2 Chip 8GB/ 256GB 8 Core CPU/10 Core GPU - Space Grey",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/62/9965162/1.jpg?0931",
+    "price": 2250999,
+    "url": "https://jumia.com.ng/apple-macbook-air-15.3-m2-chip-8gb-256gb-8-core-cpu10-core-gpu-space-grey-261569926.html",
+    "seller": {
+      "name": "Apple Authorized Reseller",
+      "sellerScore": 100,
+      "followers": 2343,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "Excellent",
+      "customerRating": "Excellent"
+    }
+  },
+  {
+    "name": "Apple MacBook Air - 15.3\" 8GB - 256GB SSD - FaceTime -Touch ID - M3 Chip - MIDNIGHT(NAVY) - 2024",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/62/5894623/1.jpg?2087",
+    "price": 2040999,
+    "url": "https://jumia.com.ng/apple-macbook-air-15.3-8gb-256gb-ssd-facetime-touch-id-m3-chip-midnightnavy-2024-326498526.html",
+    "seller": {
+      "name": "Apple Authorized Reseller",
+      "sellerScore": 100,
+      "followers": 2343,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "Excellent",
+      "customerRating": "Excellent"
+    }
+  },
+  {
+    "name": "Apple MacBook Pro 14\" M3 Chip 8GB - 512GB SSD - 8-Core CPU - 10-Core GPU Processor  - Space Grey - 2023",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/06/0796372/1.jpg?6269",
+    "price": 2650999,
+    "url": "https://jumia.com.ng/apple-macbook-pro-14-m3-chip-8gb-512gb-ssd-8-core-cpu-10-core-gpu-processor-space-grey-2023-273697060.html",
+    "seller": {
+      "name": "Apple Authorized Reseller",
+      "sellerScore": 100,
+      "followers": 2343,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "Excellent",
+      "customerRating": "Excellent"
+    }
+  },
+  {
+    "name": "Apple MacBook Air - 15.3\" 8GB - 256GB SSD - FaceTime -Touch ID - M3 Chip - Space Grey - 2024",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/82/5094623/1.jpg?2591",
+    "price": 2040999,
+    "url": "https://jumia.com.ng/apple-macbook-air-15.3-8gb-256gb-ssd-facetime-touch-id-m3-chip-space-grey-2024-326490528.html",
+    "seller": {
+      "name": "Apple Authorized Reseller",
+      "sellerScore": 100,
+      "followers": 2343,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "Excellent",
+      "customerRating": "Excellent"
+    }
+  },
+  {
+    "name": "Apple MacBook Air - 15.3\" 8GB - 512GB - FaceTime -Touch ID - M3 Chip - Starlight - 2024",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/27/6653233/1.jpg?3589",
+    "price": 2540999,
+    "url": "https://jumia.com.ng/apple-macbook-air-15.3-8gb-512gb-facetime-touch-id-m3-chip-starlight-2024-332356672.html",
+    "seller": {
+      "name": "Apple Authorized Reseller",
+      "sellerScore": 100,
+      "followers": 2343,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "Excellent",
+      "customerRating": "Excellent"
+    }
+  },
+  {
+    "name": "Apple MacBook Pro 14.2\" M3 Pro 11-Core /14-Core-18GB/512GB - Black",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/77/5283063/1.jpg?2903",
+    "price": 3300999,
+    "url": "https://jumia.com.ng/apple-macbook-pro-14.2-m3-pro-11-core-14-core-18gb512gb-black-360382577.html",
+    "seller": {
+      "name": "Apple Authorized Reseller",
+      "sellerScore": 100,
+      "followers": 2343,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "Excellent",
+      "customerRating": "Excellent"
+    }
+  },
+  {
+    "name": "Apple MacBook Pro 16'inch M3 Pro ",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/39/2602763/1.jpg?0808",
+    "price": 3855000,
+    "url": "https://jumia.com.ng/apple-macbook-pro-16inch-m3-pro-367206293.html",
+    "seller": {
+      "name": "Snookems Communication System",
+      "sellerScore": 60,
+      "followers": 0,
+      "orderFulfillmentRate": "Very Poor",
+      "qualityScore": "",
+      "customerRating": ""
+    }
+  },
+  {
+    "name": "Apple MacBook Air - 15.3\" 8GB - 256GB SSD - FaceTime -Touch ID - M3 Chip - Silver - 2024",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/51/6294623/1.jpg?8478",
+    "price": 2040999,
+    "url": "https://jumia.com.ng/apple-macbook-air-15.3-8gb-256gb-ssd-facetime-touch-id-m3-chip-silver-2024-326492615.html",
+    "seller": {
+      "name": "Apple Authorized Reseller",
+      "sellerScore": 100,
+      "followers": 2343,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "Excellent",
+      "customerRating": "Excellent"
+    }
+  },
+  {
+    "name": "Apple MacBook Air 13.6\" M3 Chip - 16GB - 512GB SSD -Touch ID - Space Grey - 2024",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/24/4622963/1.jpg?6966",
+    "price": 2499999,
+    "url": "https://jumia.com.ng/apple-macbook-air-13.6-m3-chip-16gb-512gb-ssd-touch-id-space-grey-2024-369226442.html",
+    "seller": {
+      "name": "Apple Authorized Reseller",
+      "sellerScore": 100,
+      "followers": 2343,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "Excellent",
+      "customerRating": "Excellent"
+    }
+  },
+  {
+    "name": "Apple MacBook Air",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/17/2602763/1.jpg?0747",
+    "price": 1770000,
+    "url": "https://jumia.com.ng/apple-macbook-air-367206271.html",
+    "seller": {
+      "name": "Snookems Communication System",
+      "sellerScore": 60,
+      "followers": 0,
+      "orderFulfillmentRate": "Very Poor",
+      "qualityScore": "",
+      "customerRating": ""
+    }
+  },
+  {
+    "name": "Apple MacBook Pro 14.2\" - M3 - 8C/10C/16GB - 1TB - Grey - 2023",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/08/1745063/1.jpg?6830",
+    "price": 3400999,
+    "url": "https://jumia.com.ng/apple-macbook-pro-14.2-m3-8c10c16gb-1tb-grey-2023-360547180.html",
+    "seller": {
+      "name": "Apple Authorized Reseller",
+      "sellerScore": 100,
+      "followers": 2343,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "Excellent",
+      "customerRating": "Excellent"
+    }
+  },
+  {
+    "name": "Apple MacBook Pro 16.2\" - M3 Pro/12C/18C GPU/ 36GB/512GB - BLACK",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/41/5183063/1.jpg?2088",
+    "price": 4699999,
+    "url": "https://jumia.com.ng/apple-macbook-pro-16.2-m3-pro12c18c-gpu-36gb512gb-black-360381514.html",
+    "seller": {
+      "name": "Apple Authorized Reseller",
+      "sellerScore": 100,
+      "followers": 2343,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "Excellent",
+      "customerRating": "Excellent"
+    }
+  },
+  {
+    "name": "Apple MacBook Air - 15.3\" 8GB - 256GB SSD - FaceTime -Touch ID - M3 Chip - Starlight - 2024",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/00/7594623/1.jpg?2082",
+    "price": 2040999,
+    "url": "https://jumia.com.ng/apple-macbook-air-15.3-8gb-256gb-ssd-facetime-touch-id-m3-chip-starlight-2024-326495700.html",
+    "seller": {
+      "name": "Apple Authorized Reseller",
+      "sellerScore": 100,
+      "followers": 2343,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "Excellent",
+      "customerRating": "Excellent"
+    }
+  },
+  {
+    "name": "Apple MacBook Air",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/97/2602763/1.jpg?0807",
+    "price": 2770000,
+    "url": "https://jumia.com.ng/apple-macbook-air-367206279.html",
+    "seller": {
+      "name": "Snookems Communication System",
+      "sellerScore": 60,
+      "followers": 0,
+      "orderFulfillmentRate": "Very Poor",
+      "qualityScore": "",
+      "customerRating": ""
+    }
+  },
+  {
+    "name": "Apple MacBook Air - 15.3\" 16GB - 512GB SSD - FaceTime -Touch ID - M3 Chip - Mdnight - 2024",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/18/8143963/1.jpg?8577",
+    "price": 2999999,
+    "url": "https://jumia.com.ng/apple-macbook-air-15.3-16gb-512gb-ssd-facetime-touch-id-m3-chip-mdnight-2024-369341881.html",
+    "seller": {
+      "name": "Apple Authorized Reseller",
+      "sellerScore": 100,
+      "followers": 2343,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "Excellent",
+      "customerRating": "Excellent"
+    }
+  },
+  {
+    "name": "Apple MacBook Air 13.6\" M3 Chip - 8GB - 512GB SSD -Touch ID - Midnight - 2024",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/61/2622963/1.jpg?6607",
+    "price": 2159999,
+    "url": "https://jumia.com.ng/apple-macbook-air-13.6-m3-chip-8gb-512gb-ssd-touch-id-midnight-2024-369226216.html",
+    "seller": {
+      "name": "Apple Authorized Reseller",
+      "sellerScore": 100,
+      "followers": 2343,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "Excellent",
+      "customerRating": "Excellent"
+    }
+  },
+  {
+    "name": "Apple MacBook Air - 15.3\" 8GB - 512GB SSD - FaceTime -Touch ID - M3 Chip - Space Grey - 2024",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/23/1822963/1.jpg?8428",
+    "price": 2540999,
+    "url": "https://jumia.com.ng/apple-macbook-air-15.3-8gb-512gb-ssd-facetime-touch-id-m3-chip-space-grey-2024-369228132.html",
+    "seller": {
+      "name": "Apple Authorized Reseller",
+      "sellerScore": 100,
+      "followers": 2343,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "Excellent",
+      "customerRating": "Excellent"
+    }
+  },
+  {
+    "name": "Apple MacBook Air - 15.3\" 16GB - 512GB SSD - FaceTime -Touch ID - M3 Chip - Space Grey - 2024",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/20/7132963/1.jpg?9307",
+    "price": 2999999,
+    "url": "https://jumia.com.ng/apple-macbook-air-15.3-16gb-512gb-ssd-facetime-touch-id-m3-chip-space-grey-2024-369231702.html",
+    "seller": {
+      "name": "Apple Authorized Reseller",
+      "sellerScore": 100,
+      "followers": 2343,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "Excellent",
+      "customerRating": "Excellent"
+    }
+  },
+  {
+    "name": "Apple MacBook Pro 14\" M3 Chip - 16GB RAM - 10-Core GPU, 1TB, 2024 - Space Grey",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/09/8543963/1.jpg?8834",
+    "price": 3400999,
+    "url": "https://jumia.com.ng/apple-macbook-pro-14-m3-chip-16gb-ram-10-core-gpu-1tb-2024-space-grey-369345890.html",
+    "seller": {
+      "name": "Apple Authorized Reseller",
+      "sellerScore": 100,
+      "followers": 2343,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "Excellent",
+      "customerRating": "Excellent"
+    }
+  },
+  {
+    "name": "Apple 14 INCH MACBOOK PRO M2 MAX WITH CORE 12 CORE CPU AND 30 CORE GPU 1TB SSD",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/36/8601663/1.jpg?0105",
+    "price": 6882400,
+    "url": "https://jumia.com.ng/apple-14-inch-macbook-pro-m2-max-with-core-12-core-cpu-and-30-core-gpu-1tb-ssd-366106863.html",
+    "seller": {
+      "name": "Soft Deal Computer",
+      "sellerScore": 60,
+      "followers": 3,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "",
+      "customerRating": ""
+    }
+  },
+  {
+    "name": "Apple  MacBook Pro 14\" Laptop M3 Pro 18GB 14core GPU 512 SSD",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/51/7971863/1.jpg?4071",
+    "price": 3150000,
+    "url": "https://jumia.com.ng/apple-macbook-pro-14-laptop-m3-pro-18gb-14core-gpu-512-ssd-368179715.html",
+    "seller": {
+      "name": "Soft Deal Computer",
+      "sellerScore": 60,
+      "followers": 3,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "",
+      "customerRating": ""
+    }
+  },
+  {
+    "name": "Apple 14 INCH MACBOOK PRO M3 PRO WITH 11 CORE CPU AND 14 CORE GPU 512GB SSD",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/04/4983663/1.jpg?6228",
+    "price": 4439800,
+    "url": "https://jumia.com.ng/apple-14-inch-macbook-pro-m3-pro-with-11-core-cpu-and-14-core-gpu-512gb-ssd-366389440.html",
+    "seller": {
+      "name": "Soft Deal Computer",
+      "sellerScore": 60,
+      "followers": 3,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "",
+      "customerRating": ""
+    }
+  },
+  {
+    "name": "Apple MacBook Air 15\" Laptop M2 8GB Memory 256GB SSD",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/62/9721863/1.jpg?1272",
+    "price": 1950000,
+    "url": "https://jumia.com.ng/apple-macbook-air-15-laptop-m2-8gb-memory-256gb-ssd-368127926.html",
+    "seller": {
+      "name": "Soft Deal Computer",
+      "sellerScore": 60,
+      "followers": 3,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "",
+      "customerRating": ""
+    }
+  },
+  {
+    "name": "Apple 13 INCH MACBOOK AIR M2 WITH CHP 8 CORE CPU AND 10 CORE GPU 512GB",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/94/0890663/1.jpg?8826",
+    "price": 3594500,
+    "url": "https://jumia.com.ng/apple-13-inch-macbook-air-m2-with-chp-8-core-cpu-and-10-core-gpu-512gb-366098049.html",
+    "seller": {
+      "name": "Soft Deal Computer",
+      "sellerScore": 60,
+      "followers": 3,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "",
+      "customerRating": ""
+    }
+  },
+  {
+    "name": "Apple 16 INCH MACBOOK PRO M3 PRO WITH 12 CORE CPU AND 18 CORE GPU 18GPU 18GB 512GB SSD",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/35/4983663/1.jpg?6230",
+    "price": 5250900,
+    "url": "https://jumia.com.ng/apple-16-inch-macbook-pro-m3-pro-with-12-core-cpu-and-18-core-gpu-18gpu-18gb-512gb-ssd-366389453.html",
+    "seller": {
+      "name": "Soft Deal Computer",
+      "sellerScore": 60,
+      "followers": 3,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "",
+      "customerRating": ""
+    }
+  },
+  {
+    "name": "Apple 13 inch MacBook Air M2 Chp with 8 Core and 8 Core GPU 256gb",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/92/0890663/1.jpg?8825",
+    "price": 2824500,
+    "url": "https://jumia.com.ng/apple-13-inch-macbook-air-m2-chp-with-8-core-and-8-core-gpu-256gb-366098029.html",
+    "seller": {
+      "name": "Soft Deal Computer",
+      "sellerScore": 60,
+      "followers": 3,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "",
+      "customerRating": ""
+    }
+  },
+  {
+    "name": "Apple 13 inch MacBook air M2 8 core 512gb",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/19/4385563/1.jpg?5731",
+    "price": 3594800,
+    "url": "https://jumia.com.ng/apple-13-inch-macbook-air-m2-8-core-512gb-365583491.html",
+    "seller": {
+      "name": "Soft Deal Computer",
+      "sellerScore": 60,
+      "followers": 3,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "",
+      "customerRating": ""
+    }
+  },
+  {
+    "name": "Apple 15 INCH MACBOOK PRO M2 CHP WITH 8 CORE CPU AND 10 CORE GPU 256GB",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/10/5331663/1.jpg?3416",
+    "price": 3300650,
+    "url": "https://jumia.com.ng/apple-15-inch-macbook-pro-m2-chp-with-8-core-cpu-and-10-core-gpu-256gb-366133501.html",
+    "seller": {
+      "name": "Soft Deal Computer",
+      "sellerScore": 60,
+      "followers": 3,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "",
+      "customerRating": ""
+    }
+  },
+  {
+    "name": "Apple 13.3\" MacBook Pro M1 8GB 256GB (Late 2020)",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/57/6311863/1.jpg?9007",
+    "price": 1950000,
+    "url": "https://jumia.com.ng/apple-13.3-macbook-pro-m1-8gb-256gb-late-2020-368113675.html",
+    "seller": {
+      "name": "Soft Deal Computer",
+      "sellerScore": 60,
+      "followers": 3,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "",
+      "customerRating": ""
+    }
+  },
+  {
+    "name": "Apple 13 Inch MacBook Air M1 8core 256GB",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/59/2865563/1.jpg?1293",
+    "price": 1925500,
+    "url": "https://jumia.com.ng/apple-13-inch-macbook-air-m1-8core-256gb-365568295.html",
+    "seller": {
+      "name": "Soft Deal Computer",
+      "sellerScore": 60,
+      "followers": 3,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "",
+      "customerRating": ""
+    }
+  },
+  {
+    "name": "Apple MacBook Pro 14 Laptop M3 16GB 10core GPU 512 SSD",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/63/7971863/1.jpg?4213",
+    "price": 3150000,
+    "url": "https://jumia.com.ng/apple-macbook-pro-14-laptop-m3-16gb-10core-gpu-512-ssd-368179736.html",
+    "seller": {
+      "name": "Soft Deal Computer",
+      "sellerScore": 60,
+      "followers": 3,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "",
+      "customerRating": ""
+    }
+  },
+  {
+    "name": "Apple 13 inch MacBook Air  M1chip 8 core CPU and 7 core GPU 256GB",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/29/6275563/1.jpg?2277",
+    "price": 1925440,
+    "url": "https://jumia.com.ng/apple-13-inch-macbook-air-m1chip-8-core-cpu-and-7-core-gpu-256gb-365572692.html",
+    "seller": {
+      "name": "Soft Deal Computer",
+      "sellerScore": 60,
+      "followers": 3,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "",
+      "customerRating": ""
+    }
+  },
+  {
+    "name": "Apple 13 INCH MACBOOK AIR M3 CHP WITH 8 CORE CPU AND 8 CORE GPU 256GB SSD",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/48/6071663/1.jpg?1091",
+    "price": 2440900,
+    "url": "https://jumia.com.ng/apple-13-inch-macbook-air-m3-chp-with-8-core-cpu-and-8-core-gpu-256gb-ssd-366170684.html",
+    "seller": {
+      "name": "Soft Deal Computer",
+      "sellerScore": 60,
+      "followers": 3,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "",
+      "customerRating": ""
+    }
+  },
+  {
+    "name": "Apple 15 INCH MACBOOK AIR M3 CHP WITH 8 CORE CPU AND 10 CORE GPU 256GB SSD",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/01/1271663/1.jpg?1318",
+    "price": 2885400,
+    "url": "https://jumia.com.ng/apple-15-inch-macbook-air-m3-chp-with-8-core-cpu-and-10-core-gpu-256gb-ssd-366172110.html",
+    "seller": {
+      "name": "Soft Deal Computer",
+      "sellerScore": 60,
+      "followers": 3,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "",
+      "customerRating": ""
+    }
+  },
+  {
+    "name": "Apple 13 INCH MACBOOK AIR M2 8 CORE 512GB",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/05/0890663/1.jpg?8827",
+    "price": 3600800,
+    "url": "https://jumia.com.ng/apple-13-inch-macbook-air-m2-8-core-512gb-366098050.html",
+    "seller": {
+      "name": "Soft Deal Computer",
+      "sellerScore": 60,
+      "followers": 3,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "",
+      "customerRating": ""
+    }
+  },
+  {
+    "name": "Apple  MacBook Air 13.3\" Laptop M1 8GB Memory  256GB SSD",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/45/8551863/1.jpg?3734",
+    "price": 1350000,
+    "url": "https://jumia.com.ng/apple-macbook-air-13.3-laptop-m1-8gb-memory-256gb-ssd-368155854.html",
+    "seller": {
+      "name": "Soft Deal Computer",
+      "sellerScore": 60,
+      "followers": 3,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "",
+      "customerRating": ""
+    }
+  },
+  {
+    "name": "Apple MacBook Air 15 Laptop M2 8GB Memory 512GB SSD (Latest Model)",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/12/4261863/1.jpg?7530",
+    "price": 2750000,
+    "url": "https://jumia.com.ng/apple-macbook-air-15-laptop-m2-8gb-memory-512gb-ssd-latest-model-368162421.html",
+    "seller": {
+      "name": "Soft Deal Computer",
+      "sellerScore": 60,
+      "followers": 3,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "",
+      "customerRating": ""
+    }
+  },
+  {
+    "name": "Apple MacBook Pro 16\" Laptop - M3 Max  - 36GB Memory - 30-core GPU - 1TB SSD",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/50/7971863/1.jpg?4216",
+    "price": 4950000,
+    "url": "https://jumia.com.ng/apple-macbook-pro-16-laptop-m3-max-36gb-memory-30-core-gpu-1tb-ssd-368179705.html",
+    "seller": {
+      "name": "Soft Deal Computer",
+      "sellerScore": 60,
+      "followers": 3,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "",
+      "customerRating": ""
+    }
+  },
+  {
+    "name": "Apple 13 inch MacBook Air M2 8 core 256GB",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/75/1385563/1.jpg?5785",
+    "price": 2824300,
+    "url": "https://jumia.com.ng/apple-13-inch-macbook-air-m2-8-core-256gb-365583157.html",
+    "seller": {
+      "name": "Soft Deal Computer",
+      "sellerScore": 60,
+      "followers": 3,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "",
+      "customerRating": ""
+    }
+  },
+  {
+    "name": "Apple  MacBook Pro 13.3 256GB 8cores M2 2022",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/15/4111863/1.jpg?8696",
+    "price": 2250000,
+    "url": "https://jumia.com.ng/apple-macbook-pro-13.3-256gb-8cores-m2-2022-368111451.html",
+    "seller": {
+      "name": "Soft Deal Computer",
+      "sellerScore": 60,
+      "followers": 3,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "",
+      "customerRating": ""
+    }
+  },
+  {
+    "name": "Apple MacBook Pro 14\" Laptop  M3 Pro 18GB 18core GPU  1TB SSD",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/05/7971863/1.jpg?4213",
+    "price": 3950000,
+    "url": "https://jumia.com.ng/apple-macbook-pro-14-laptop-m3-pro-18gb-18core-gpu-1tb-ssd-368179750.html",
+    "seller": {
+      "name": "Soft Deal Computer",
+      "sellerScore": 60,
+      "followers": 3,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "",
+      "customerRating": ""
+    }
+  },
+  {
+    "name": "Apple MacBook Pro 16 Laptop M3 Pro 18GB 18core GPU 512GB SSD",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/18/7971863/1.jpg?4169",
+    "price": 3450000,
+    "url": "https://jumia.com.ng/apple-macbook-pro-16-laptop-m3-pro-18gb-18core-gpu-512gb-ssd-368179781.html",
+    "seller": {
+      "name": "Soft Deal Computer",
+      "sellerScore": 60,
+      "followers": 3,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "",
+      "customerRating": ""
+    }
+  },
+  {
+    "name": "Apple  MacBook Pro 16 Laptop M3 Pro 36GB 18core GPU 512GB SSD",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/14/8516863/1.jpg?0429",
+    "price": 3750000,
+    "url": "https://jumia.com.ng/apple-macbook-pro-16-laptop-m3-pro-36gb-18core-gpu-512gb-ssd-368615841.html",
+    "seller": {
+      "name": "Soft Deal Computer",
+      "sellerScore": 60,
+      "followers": 3,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "",
+      "customerRating": ""
+    }
+  },
+  {
+    "name": "Apple MacBook Pro 14 Laptop  M3 Pro 18GB  18core GPU 1TB SSD ",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/04/8516863/1.jpg?0430",
+    "price": 3650000,
+    "url": "https://jumia.com.ng/apple-macbook-pro-14-laptop-m3-pro-18gb-18core-gpu-1tb-ssd-368615840.html",
+    "seller": {
+      "name": "Soft Deal Computer",
+      "sellerScore": 60,
+      "followers": 3,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "",
+      "customerRating": ""
+    }
+  },
+  {
+    "name": "Apple  MacBook Air 15\" Laptop  M2 8GB Memory  256GB SSD (Latest Model)",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/33/6201863/1.jpg?5098",
+    "price": 1950000,
+    "url": "https://jumia.com.ng/apple-macbook-air-15-laptop-m2-8gb-memory-256gb-ssd-latest-model-368102633.html",
+    "seller": {
+      "name": "Soft Deal Computer",
+      "sellerScore": 60,
+      "followers": 3,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "",
+      "customerRating": ""
+    }
+  },
+  {
+    "name": "Apple MacBook Air 15 inch Laptop M3 8GB Memory 512GB SSD",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/66/8171863/1.jpg?2065",
+    "price": 2750000,
+    "url": "https://jumia.com.ng/apple-macbook-air-15-inch-laptop-m3-8gb-memory-512gb-ssd-368171866.html",
+    "seller": {
+      "name": "Soft Deal Computer",
+      "sellerScore": 60,
+      "followers": 3,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "",
+      "customerRating": ""
+    }
+  },
+  {
+    "name": "Apple 13.6 MacBook Air M2 8GB 256gb",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/28/7971863/1.jpg?3869",
+    "price": 1850000,
+    "url": "https://jumia.com.ng/apple-13.6-macbook-air-m2-8gb-256gb-368179782.html",
+    "seller": {
+      "name": "Soft Deal Computer",
+      "sellerScore": 60,
+      "followers": 3,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "",
+      "customerRating": ""
+    }
+  },
+  {
+    "name": "Apple MacBook Air 13-inch 2022 M2 8GB 256GB SSD 8Core GPU",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/93/7971863/1.jpg?4157",
+    "price": 1800000,
+    "url": "https://jumia.com.ng/apple-macbook-air-13-inch-2022-m2-8gb-256gb-ssd-8core-gpu-368179739.html",
+    "seller": {
+      "name": "Soft Deal Computer",
+      "sellerScore": 60,
+      "followers": 3,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "",
+      "customerRating": ""
+    }
+  },
+  {
+    "name": "Apple MacBook Air 15 Laptop M2 8GB Memory 512GB SSD",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/47/2361863/1.jpg?7795",
+    "price": 2350000,
+    "url": "https://jumia.com.ng/apple-macbook-air-15-laptop-m2-8gb-memory-512gb-ssd-368163274.html",
+    "seller": {
+      "name": "Soft Deal Computer",
+      "sellerScore": 60,
+      "followers": 3,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "",
+      "customerRating": ""
+    }
+  },
+  {
+    "name": "Apple  MacBook Pro 16\" Laptop  M3 Pro 18GB 18core GPU 512GB SSD",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/24/7971863/1.jpg?4214",
+    "price": 3650000,
+    "url": "https://jumia.com.ng/apple-macbook-pro-16-laptop-m3-pro-18gb-18core-gpu-512gb-ssd-368179742.html",
+    "seller": {
+      "name": "Soft Deal Computer",
+      "sellerScore": 60,
+      "followers": 3,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "",
+      "customerRating": ""
+    }
+  },
+  {
+    "name": "Apple 13.6 MacBook Air M2 Midnight 8GB 512GB",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/15/7971863/1.jpg?4212",
+    "price": 2150000,
+    "url": "https://jumia.com.ng/apple-13.6-macbook-air-m2-midnight-8gb-512gb-368179751.html",
+    "seller": {
+      "name": "Soft Deal Computer",
+      "sellerScore": 60,
+      "followers": 3,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "",
+      "customerRating": ""
+    }
+  },
+  {
+    "name": "Apple MacBook Pro 16\" Laptop  M3 Max 36GB Memory 30core GPU 1TB SSD",
+    "image": "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/61/7971863/1.jpg?4215",
+    "price": 4950000,
+    "url": "https://jumia.com.ng/apple-macbook-pro-16-laptop-m3-max-36gb-memory-30core-gpu-1tb-ssd-368179716.html",
+    "seller": {
+      "name": "Soft Deal Computer",
+      "sellerScore": 60,
+      "followers": 3,
+      "orderFulfillmentRate": "Excellent",
+      "qualityScore": "",
+      "customerRating": ""
+    }
+  }
+]

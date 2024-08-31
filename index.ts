@@ -10,21 +10,21 @@ app.use(cors());
 
 const port = process.env.PORT || 5000;
 
-// cron.schedule('* * * * Sun', () => {
-//   console.log(`Crawling data on ${new Date().toLocaleDateString()}`);
-//   crawlData().then(() => console.log("Saved crawled data successfully"));
-// });
-
 app.get('/crawl', async (_, res) => {
   console.log(`[Crawler]: Crawling data on ${new Date().toLocaleDateString()}`);
   crawlData()
   res.status(200).json({ msg: '[Crawler]: Started Crawling Pages...' })
 })
 
-app.get("/macbooks", async (_req, res) => {
+app.get("/macbooks", async (req, res) => {
   try {
-    const macbooks = await Macbook.find()
-    res.status(200).json(macbooks)
+    const limit = Number.parseInt(req.query.limit as string) || 10
+    const page = Number(req.query.page as string) || 1
+    const skip = (page - 1) * limit
+    const total = await Macbook.countDocuments()
+    const macbooks = await Macbook.find().limit(limit).skip(skip)
+
+    res.status(200).json({ macbooks, page, createdAt: macbooks[0]?.createdAt, total })
   } catch (error) {
     console.log("Error: ", error)
     res.status(500).json({ msg: 'Could not fetch data' })
@@ -32,5 +32,5 @@ app.get("/macbooks", async (_req, res) => {
 });
 
 connectDB().then(() => {
-  app.listen(port, () => console.log(`⚡️[server]: Server is running at http://localhost:${port}`));
+  app.listen(port, () => console.log(`⚡️[Server]: Server is running at http://localhost:${port}`));
 });

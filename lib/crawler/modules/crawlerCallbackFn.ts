@@ -13,7 +13,7 @@ import crawlDetailsPage from './crawlDetailsPage';
 const currentMacbooks: IMacbook[] = []
 
 const crawlerCallbackFn: CrawlerRequestOptions['callback'] = (error, res, done) => {
-  console.log("[Crawler | Search ]: Started crawling a search page");
+  console.log("[Crawler/Search]: Started crawling a search page");
   if (error) {
     throw new Error('Something went wrong in the main crawler callback')
   }
@@ -30,7 +30,7 @@ const crawlerCallbackFn: CrawlerRequestOptions['callback'] = (error, res, done) 
     crawlNextPage(crawlerState, nextPagePath)
   }
   else {
-    console.log("[Crawler | Details]: Started crawling details page");
+    console.log("[Crawler/Details]: Started crawling details page");
 
     //Generate configs from all the macbooks we stored during the first stage of the web crawling
     //This time around we're all getting all the corresponding seller data

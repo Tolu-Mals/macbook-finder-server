@@ -4,6 +4,9 @@ import cors from 'cors';
 import { crawlData } from './lib/crawler';
 import { Macbook } from './models/Macbook';
 
+const DEFAULT_LIMIT = 12
+const DEFAULT_PAGE = 1
+
 const app = express();
 
 app.use(cors());
@@ -11,20 +14,24 @@ app.use(cors());
 const port = process.env.PORT || 5000;
 
 app.get('/crawl', async (_, res) => {
+  console.log('[Crawler]: Deleting old records');
+  const result = await Macbook.deleteMany({})
+  console.log(`[Crawler]: Deleted ${result} macbooks`);
+
   console.log(`[Crawler]: Crawling data on ${new Date().toLocaleDateString()}`);
   crawlData()
-  res.status(200).json({ msg: '[Crawler]: Started Crawling Pages...' })
+  res.status(200).json({ msg: '[Crawler]: Started operations' })
 })
 
 app.get("/macbooks", async (req, res) => {
   try {
-    const limit = Number.parseInt(req.query.limit as string) || 10
-    const page = Number(req.query.page as string) || 1
+    const limit = Number.parseInt(req.query.limit as string) || DEFAULT_LIMIT
+    const page = Number(req.query.page as string) || DEFAULT_PAGE
     const skip = (page - 1) * limit
     const total = await Macbook.countDocuments()
     const macbooks = await Macbook.find().limit(limit).skip(skip)
 
-    res.status(200).json({ macbooks, page, createdAt: macbooks[0]?.createdAt, total })
+    res.status(200).json({ macbooks, page, lastUpdated: macbooks[0]?.updatedAt, size: macbooks.length, total })
   } catch (error) {
     console.log("Error: ", error)
     res.status(500).json({ msg: 'Could not fetch data' })

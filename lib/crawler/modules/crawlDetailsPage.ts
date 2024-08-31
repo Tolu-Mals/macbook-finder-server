@@ -18,9 +18,9 @@ const crawlDetailsPage = (crawlerState: CrawlerState, currentMacbooks: IMacbook[
     maxConnections: CRAWLER_MAX_CONNECTIONS,
     rateLimit: CRAWLER_RATE_LIMIT,
     callback: (error: Error, res: CrawlerRequestResponse, done: () => void) => {
-      console.log("[Crawler | Details]: Macbook Index: ", crawlerState.macbookIndex)
+      console.log("[Crawler/Details]: Macbook Index: ", crawlerState.macbookIndex)
       if (error) {
-        throw new Error('[Crawler | Details]: Something went wrong')
+        throw new Error('[Crawler/Details]: Something went wrong')
       }
       else {
         const $ = res.$;

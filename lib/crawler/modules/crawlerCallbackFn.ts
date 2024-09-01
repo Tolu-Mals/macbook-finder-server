@@ -10,7 +10,7 @@ import populateMacbooks from './populateMacbooks'
 import crawlNextPage from './crawlNextPage'
 import crawlDetailsPage from './crawlDetailsPage';
 
-const currentMacbooks: IMacbook[] = []
+let currentMacbooks: IMacbook[] = []
 
 const crawlerCallbackFn: CrawlerRequestOptions['callback'] = (error, res, done) => {
   console.log("[Crawler/Search]: Started crawling a search page");

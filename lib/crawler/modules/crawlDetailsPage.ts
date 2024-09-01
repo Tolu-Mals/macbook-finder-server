@@ -42,6 +42,7 @@ const crawlDetailsPage = (crawlerState: CrawlerState, currentMacbooks: IMacbook[
           Macbook.insertMany(currentMacbooks).then(() => {
             console.log("[Crawler]: Saved successfully to database ✅ ....")
           })
+          currentMacbooks = []
         }
       }
       done()

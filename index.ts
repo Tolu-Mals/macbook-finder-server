@@ -38,6 +38,16 @@ app.get("/macbooks", async (req, res) => {
   }
 });
 
+app.get("/macbook/:id", async (req, res) => {
+  const { id } = req.params
+
+  if (!id) res.status(400).json({ msg: 'Macbook ID is required' })
+
+  const macbook = await Macbook.findById(id)
+
+  res.status(200).json({ macbook })
+})
+
 connectDB().then(() => {
   app.listen(port, () => console.log(`⚡️[Server]: Server is running at http://localhost:${port}`));
 });

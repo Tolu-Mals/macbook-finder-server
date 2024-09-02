@@ -43,6 +43,7 @@ const crawlDetailsPage = (crawlerState: CrawlerState, currentMacbooks: IMacbook[
             console.log("[Crawler]: Saved successfully to database ✅ ....")
           })
           currentMacbooks = []
+          crawlerState.macbookIndex = 0
         }
       }
       done()

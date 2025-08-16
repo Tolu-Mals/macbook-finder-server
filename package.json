@@ -28,6 +28,7 @@
 	},
 	"scripts": {
 		"build": "yarn install; npx tsc",
+		"prestart": "npm run build",
 		"start": "node index.js",
 		"dev": "concurrently \"npx tsc --watch\" \"nodemon -q index.js\" "
 	},

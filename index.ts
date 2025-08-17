@@ -16,8 +16,7 @@ const port = process.env.PORT || 3000;
 app.get("/crawl", async (_, res) => {
 	console.log("[Crawler]: Deleting old records");
 	const result = await Macbook.deleteMany({});
-	console.log(`[Crawler]: Deleted ${result} macbooks`);
-
+	console.log(`[Crawler]: Deleted ${result.deletedCount} macbooks`);
 	console.log(`[Crawler]: Crawling data on ${new Date().toLocaleDateString()}`);
 	crawlData();
 	res.status(200).json({ msg: "[Crawler]: Started operations" });

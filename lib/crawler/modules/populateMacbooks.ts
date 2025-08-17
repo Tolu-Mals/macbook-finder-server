@@ -25,7 +25,13 @@ const populateMacbooks = (
 			$(product).find(PRICE_SELECTOR).text(),
 		);
 		const reviews = $(product).find(REVIEW_SELECTOR).text();
-		const { starRating, noOfReviews } = getRatingFromReviewString(reviews);
+		const ratingFromReviews = getRatingFromReviewString(reviews);
+		const starRating = ratingFromReviews?.starRating
+		const noOfReviews = ratingFromReviews?.noOfReviews
+
+		if(!starRating || !noOfReviews){
+			throw Error("Could not extract star rating or no of reviews")
+		}
 
 		let url = $(product).find(PRODUCT_LINK_SELECTOR).attr("href") ?? "";
 		url = JUMIA_BASE_URL + url;

@@ -28,6 +28,7 @@
 		"typescript": "^5.9.2"
 	},
 	"scripts": {
+		"prebuild": "yarn install",
 		"build": "tsc",
 		"start": "node index.js",
 		"dev": "concurrently \"tsc --watch\" \"nodemon -q index.js\" "

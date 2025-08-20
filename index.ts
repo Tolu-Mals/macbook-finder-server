@@ -55,6 +55,10 @@ app.get("/macbook/:id", async (req, res) => {
 	res.status(200).json({ macbook });
 });
 
+app.get("/health", (req, res) => {
+	res.status(200).json({ status: "ok", timestamp: Date.now() })
+})
+
 connectDB().then(() => {
 	app.listen(port, () =>
 		console.log(`⚡️[Server]: Server is running at http://localhost:${port}`),
